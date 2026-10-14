@@ -1,6 +1,7 @@
 import Foundation
 import Network
 
+
 /// Minimal HTTP server that serves an OpenAI-compatible chat completions API
 class HTTPServer {
     private var listener: NWListener?
